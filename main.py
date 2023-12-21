@@ -50,4 +50,4 @@ with open('output.csv', 'w', newline='') as csvfile:
         y_coor = height + y_range[0]
         csvwriter.writerow([int(intervals[i]), y_coor])
 
-print("Output CSV file generated successfully.")
+print("Output CSV generated successfully.")
